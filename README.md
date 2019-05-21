@@ -1,6 +1,6 @@
 # Synchrophasor-Estimation
 
-This repository contains the code developed for synchrophasor estimation using two different classes of estimation algorithms; namely the [Classical Fourier Algorithm](https://ieeexplore.ieee.org/document/5519136) and the [Four-parameter Taylor Series](https://ieeexplore.ieee.org/document/4408693) algorithm. The code is developed in [LabVIEW](https://en.wikipedia.org/wiki/LabVIEW) and [LabVIEW-FPGA](https://en.wikipedia.org/wiki/LabVIEW) for both simulation and hardware analysis respectively. 
+This repository contains code developed for synchrophasor estimation using two different classes of estimation algorithms; namely the [Classical Fourier Algorithm](https://ieeexplore.ieee.org/document/5519136) and the [Four-parameter Taylor Series](https://ieeexplore.ieee.org/document/4408693) algorithm. The code is developed in [LabVIEW](https://en.wikipedia.org/wiki/LabVIEW) and [LabVIEW-FPGA](https://en.wikipedia.org/wiki/LabVIEW) for both simulation and hardware analysis respectively. 
 
 ---
 
