@@ -8,7 +8,7 @@ For simulation analysis, a known **_simulate signal_** block (a LabVIEW function
 
 However, the same task becomes a little more demanding when a real-time signal is to be estimated. With the limitation of storage/memory that we have to deal with for hardware analysis, the code written now has to optimized to take into account the limited resources of the hardware device. Various data-structres can be used to store the incoming real-time data, and in this project we use both: memory blocks as well as FIFO blocks for synchrophasor estimation. Such analysis require a hardware device, which is a c-RIO-9063 FPGA device in this case, embedded with voltage, current and GPS modules along with LabVIEW-FPGA software.
 
-## Synchrophasor Estimation MEM Blocks
+## Synchrophasor Estimation using MEM Blocks
 
 Various data-structures can be used for storing the incoming sampled discrete values. In this VI, data is stored in memory block (functions) provided by LabVIEW to carry out the estimation anaylsis. Codes for Recursive and Non-Recursive DFT algorithms have been developed using **LabVIEW-FPGA** software.
 
@@ -16,7 +16,7 @@ Various data-structures can be used for storing the incoming sampled discrete va
 
 Specifically, FIFO data-structure is used for storing the incoming sampled discrete values. In this VI, data is stored using First-In-First-Out blocks (function) provided by LabVIEW to carry out the estimation anaylsis. Codes for Recursive and Non-Recursive DFT algorithms have been developed using **LabVIEW-FPGA** software.
 
-## Synchrophasor Estimation four-parameter Taylor Series
+## Synchrophasor Estimation using four-parameter Taylor Series
 
 In this VI, data is stored in memory blocks (functions) provided by LabVIEW to carry out the estimation anaylsis, however, codes for Recursive and Non-Recursive four-parameter Taylor series algorithms have been developed using **LabVIEW-FPGA** software.
 
