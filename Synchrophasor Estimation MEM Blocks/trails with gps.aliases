@@ -1,6 +1,9 @@
 [My Computer]
 My Computer = "172.22.11.1"
 
+[NI-cRIO-9063-01b9cec7]
+NI-cRIO-9063-01b9cec7 = "169.254.4.62"
+
 [NI-cRIO-9063-030b084b]
 NI-cRIO-9063-030b084b = "172.22.11.2"
 

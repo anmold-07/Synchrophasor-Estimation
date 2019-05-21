@@ -1,0 +1,1 @@
+Open the folder named 'GE 1. PROJECT' to implement NON-RECURSIVE GE ALGORITHM.
